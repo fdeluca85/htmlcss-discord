@@ -123,15 +123,40 @@ nav li a:hover{
 .principale p{
     padding-top: 40px;
 }
+.left{
+    float: left;
+    width: 300px;
+} 
+.right{
+    float: right;
+    width: 300px;
+}
+.grigio{
+    background-color: lightgray;
+    padding: 20px 0;
+}
 
+.center{
+    text-align: center;
+    line-height: 1.5;
+}
+.center-img{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+.center h1{
+    margin-bottom: 10px;
+}
 /* ***** footer ***** */
 
 /* *****debug***** */
 
-.debug header{
-    /* height: 100px;
-    background-color: #3161E0; */
-}
+/* .debug header{
+    height: 100px;
+    background-color: #3161E0;
+} */
 
 /* .debug #jumbo{
     height: 600px;
@@ -148,10 +173,10 @@ nav li a:hover{
     background-color: darkslategray;
 }
 
-.debug .container{
+/* .debug .container{
     height: 100%;
-    /* background-color: deepskyblue; */
-}
+    background-color: deepskyblue;
+} */
 
 /* .debug #logo,#accedi{
     background-color: chartreuse;
@@ -161,15 +186,15 @@ nav li a:hover{
     background-color: brown;
 } */
 
-.debug .left{
+/* .debug .left{
     float: left;
     width: 300px;
-    /* background-color: red; */
+    background-color: red;
 } 
 .debug .right{
     float: right;
     width: 300px;
-    /* background-color:grey; */
+    background-color:grey;
 }
 .grigio{
     background-color: lightgray;
@@ -188,4 +213,4 @@ nav li a:hover{
 }
 .debug .center h1{
     margin-bottom: 10px;
-}
+} */
