@@ -66,12 +66,12 @@ nav{
     text-align: center;
 }
 
-nav li{
+li{
     display: inline-block;
     list-style: none;
 }
 
-nav li a{
+li a{
     color: white;
     font-weight: bold;
     padding:0 15px;
@@ -79,7 +79,7 @@ nav li a{
 
 }
 
-nav li a:hover{
+li a:hover{
     text-decoration: underline;
 }
 
@@ -176,6 +176,40 @@ nav li a:hover{
 
 /* ***** footer ***** */
 
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-nation{
+    float: left;
+    width: 300px;
+
+}
+.footer-left{
+    float: left;
+    width: 250px;
+} 
+
+footer h2, h4{
+    color: #8EA1E1;
+    padding-bottom: 20px;
+
+}
+
+
+select {
+    background-color: #23272A;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  footer .footer-left li{
+    padding: 10px 0;
+    font-size: 15px ;
+    display: block;
+    list-style: none;
+
+}
 /* *****debug***** */
 
 /* .debug header{
@@ -194,8 +228,8 @@ nav li a:hover{
 } */
 
 .debug footer{
-    height: 400px;
-    background-color: darkslategray;
+    height: 800px;
+    background-color: #23272A;
 }
 
 /* .debug .container{
