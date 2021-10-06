@@ -179,6 +179,8 @@ li a:hover{
 footer{
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #23272A;
+
 }
 .footer-nation{
     float: left;
@@ -210,6 +212,28 @@ select {
     list-style: none;
 
 }
+
+#registrati{
+    padding-top: 50px;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+}
+
+#logo-bot{
+    width: 25%;
+    float: left;vertical-align: middle;
+    padding-top: 30px;
+}
+.foot-bot{
+    display: block;
+    border-top: 2px solid #4A5882;
+    margin-top: 450px;
+    padding-bottom: 50px;
+    height: 100px;
+}
+
+
 /* *****debug***** */
 
 /* .debug header{
@@ -227,10 +251,9 @@ select {
     background-color: chocolate;
 } */
 
-.debug footer{
-    height: 800px;
+/* .debug footer{
     background-color: #23272A;
-}
+} */
 
 /* .debug .container{
     height: 100%;
@@ -273,3 +296,13 @@ select {
 .debug .center h1{
     margin-bottom: 10px;
 } */
+
+/* .debug .foot-bot{
+    display: block;
+    border-top: 2px solid #4A5882;
+    margin-top: 450px;
+    padding-bottom: 50px;
+    background-color: yellow;
+    height: 200px;
+} */
+
