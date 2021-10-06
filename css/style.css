@@ -23,12 +23,12 @@ body{
 .btn{
     padding: 10px 15px;
     color: black;
-    border-radius: 20px;
+    border-radius: 2em;
     text-decoration: none;
 }
 .big{
     font-size: 25px;
-    padding: 15px 35px;
+    padding: 20px 35px;
 }
 
 .white{
@@ -84,7 +84,7 @@ nav li a:hover{
     text-decoration: none;
 }
 
-/* ***** main ***** */
+/* ***** jumbo ***** */
 
 #jumbo{
     height: 600px;
@@ -110,6 +110,14 @@ nav li a:hover{
 #jumbo .btn{
     margin: 0 15px;
 }
+
+/* *****main***** */
+
+.principale{
+    margin:100px 30px;
+    height: 100%;
+}
+
 /* ***** footer ***** */
 
 /* *****debug***** */
@@ -124,10 +132,10 @@ nav li a:hover{
     background-color: blue; 
 } */
 
-.debug main{
+/* .debug main{
     height: 800px;
     background-color: chocolate;
-}
+} */
 
 .debug footer{
     height: 400px;
@@ -146,3 +154,18 @@ nav li a:hover{
 .debug nav{
     background-color: brown;
 } */
+
+.debug .left{
+    float: left;
+    width: 300px;
+    /* background-color: red; */
+}
+.debug .right{
+    float: right;
+    width: 300px;
+    /* background-color:grey; */
+}
+.grigio{
+    background-color: lightgray;
+    padding: 20px 0;
+}
