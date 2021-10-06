@@ -19,28 +19,61 @@ body{
     display: table;
     clear: both;
 }
+
+.btn{
+    background-color: #fff;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
 /* ***** header ***** */
 .debug header{
-    height: 100px;
+    height: 80px;
     background-color: #3161E0;
+    line-height: 80px;
 }
 
-
-/* ***** main ***** */
-.logo,
-.accedi{
+#logo,
+#accedi{
     width: 25%;
     float: left;
+}
 
+#logo img {
+    vertical-align: middle;
 }
 nav{
     width: 50%;
     float: left;
     text-align: center;
 }
-.accedi{
-    text-align: right;
+
+nav li{
+    display: inline-block;
+    list-style: none;
 }
+
+nav li a{
+    color: white;
+    font-weight: bold;
+    padding:0 15px;
+    text-decoration: none;
+
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+#accedi{
+    text-align: right;
+    text-decoration: none;
+}
+
+/* ***** main ***** */
+
+
 
 /* ***** footer ***** */
 
@@ -68,13 +101,13 @@ nav{
 
 .debug .container{
     height: 100%;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
 }
 
-.debug .logo,.accedi{
+/* .debug #logo,#accedi{
     background-color: chartreuse;
 
 }
 .debug nav{
     background-color: brown;
-}
+} */
