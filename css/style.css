@@ -13,17 +13,42 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 /* ***** header ***** */
+.debug header{
+    height: 100px;
+    background-color: #3161E0;
+}
+
 
 /* ***** main ***** */
+.logo,
+.accedi{
+    width: 25%;
+    float: left;
+
+}
+nav{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.accedi{
+    text-align: right;
+}
 
 /* ***** footer ***** */
 
 /* *****debug***** */
 
 .debug header{
-    height: 100px;
-    background-color: #3161E0;
+    /* height: 100px;
+    background-color: #3161E0; */
 }
 
 .debug #jumbo{
@@ -44,4 +69,12 @@ body{
 .debug .container{
     height: 100%;
     background-color: deepskyblue;
+}
+
+.debug .logo,.accedi{
+    background-color: chartreuse;
+
+}
+.debug nav{
+    background-color: brown;
 }
